@@ -1,0 +1,15 @@
+$TTL 3600
+
+@ IN SOA @ jarekper.uni.lodz.pl. (
+    20100120 ; serial
+    1D       ; refresh
+    1H       ; retry
+    1W       ; expire
+    3H       ; minimum
+)
+
+    NS @
+
+1   PTR localhost.
+10  PTR serwer.pl.
+11  PTR www.bye.pl.
