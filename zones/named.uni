@@ -1,0 +1,19 @@
+$ORIGIN uni.lodz.pl.
+$TTL 3600
+
+@ IN SOA @ jarekper.uni.lodz.pl. (
+    20100120 ; serial
+    1D       ; refresh
+    1H       ; retry
+    1W       ; expire
+    3H       ; minimum
+)
+
+    NS @
+    A 212.191.70.117
+    AAAA ::1
+    TXT "Testowy serwer dns"
+
+test1   A 127.0.0.2
+test2   A 127.0.0.3
+www.kfj A 212.191.70.118
